@@ -1,0 +1,70 @@
+.description {
+  border: 1px solid #8e86b5;
+  padding: 48px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
+
+.description h2 {
+  margin-top: 32px;
+  margin-bottom : 32px;
+
+}
+
+.description ul {
+  margin-top: 30px;
+}
+
+.description + div {
+  text-align: center;
+}
+
+.tarifs h2 {
+ text-align: center;
+}
+
+section {
+  padding: 40px;
+}
+
+.a-propos-main {
+  width: 80%;
+  margin: auto;
+}
+
+.a-propos-main h1 {
+  text-align: center;
+}
+
+table {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 64px;
+  }
+  
+  td,
+  th {
+    padding: 5px;
+    border: 1px solid #8e86b5;
+  }
+  
+  td {
+    padding: 40px;
+  }
+  
+  h2 {
+    margin-bottom: 40px;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 996px) {
+    .section-tarifs {
+      display: none;
+    }
+  }
